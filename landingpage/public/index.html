@@ -24,12 +24,97 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
 
-    <!-- Estilos -->
-    <!-- Fuentes -->
+    <!-- Styles -->
+    <link rel="stylesheet" href="normalize.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <!-- Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
 
     <title>Jardín Botánico Ushuaia</title>
   </head>
   <body>
-    <h1>Sitio web institucional para el Jardín Botánico de Ushuaia</h1>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-md bg-dark">
+      <div class="brand d-flex align-items-center">
+        <a class="navbar-brand text-white" href="#">JBU</a>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarLinks"
+        aria-controls="navbarLinks"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="text-white">
+          <span class="navbar-toggler-icon"></span>
+        </span>
+      </button>
+      <div
+        class="collapse navbar-collapse d-md-flex justify-content-end"
+        id="navbarLinks"
+      >
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item text-center">
+            <a class="nav-link text-white" href="#home">Inicio</a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link text-white" href="#about">Equipo</a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link text-white" href="#map">Mapa</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div id="content" class="container-fluid">
+      <section class="vh-100 text-center" id="home">
+        <div class="navbar-spacer"></div>
+        <h1>Sitio web institucional para el Jardín Botánico de Ushuaia</h1>
+        <hr />
+        <br />
+        <h2>Inicio</h2>
+      </section>
+      <section class="vh-100 text-center" id="about">
+        <div class="navbar-spacer"></div>
+        <h2>Equipo</h2>
+      </section>
+      <section class="vh-100 text-center" id="map">
+        <div class="navbar-spacer"></div>
+        <h2>Mapa</h2>
+      </section>
+    </div>
+
+    <!-- Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
   </body>
 </html>

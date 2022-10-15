@@ -1,4 +1,4 @@
-# LandingPage para el Jardín Botánico De Ushuaia (Express)
+# LandingPage para el Jardín Botánico De Ushuaia
 
 ## Dependencias
 
@@ -14,7 +14,7 @@ $ nano .env
 ## Iniciar
 
 ```bash
-$ docker compose up -d prod/dev
+$ docker compose up -d prod
 ```
 
 _Quitando la opción *-d* se ven los logs del contenedor._
