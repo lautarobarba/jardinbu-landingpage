@@ -1,5 +1,14 @@
 # LandingPage para el Jardín Botánico De Ushuaia
 
+## Tecnologías
+
+**Proyecto Nodejs (javascript)**
+
+### Librerias y otros
+
+- http-server
+- MDBootstrap
+
 ## Dependencias
 
 - Docker (Apéndice)
