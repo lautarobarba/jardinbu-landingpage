@@ -100,4 +100,5 @@ h2 {
   min-height: 500px; 
   max-height: 700px; 
   height: auto;
+  border: solid 2px var(--primary)
 }
