@@ -36,15 +36,15 @@ body {
   min-height: 54px;
 }
 
-/* #home {
+/* #home-section {
   background-color: var(--dark);
 } */
 
-/* #about {
+/* #about-section {
   background-color: #0000ff50;
 } */
 
-/* #map {
+/* #map-section {
   background-color: #ff000050;
 } */
 
@@ -93,4 +93,11 @@ h2 {
 .custom-link {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   font-size: 1.25rem;
+}
+
+/* Leaflet */
+#map { 
+  min-height: 500px; 
+  max-height: 700px; 
+  height: auto;
 }

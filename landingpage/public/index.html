@@ -38,6 +38,8 @@
     />
     <!-- MDB -->
     <link rel="stylesheet" href="assets/css/mdb.min.css" />
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="assets/css/leaflet.css" />
     <!-- Own Styles -->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
@@ -70,13 +72,13 @@
         <div class="collapse navbar-collapse" id="navbarLinks">
           <ul class="navbar-nav ms-auto mb-0 mb-lg-0">
             <li class="nav-item text-center">
-              <a class="nav-link text-white custom-link" href="#home">Inicio</a>
+              <a class="nav-link text-white custom-link" href="#home-section">Inicio</a>
             </li>
             <li class="nav-item text-center">
-              <a class="nav-link text-white custom-link " href="#about">Equipo</a>
+              <a class="nav-link text-white custom-link " href="#about-section">Equipo</a>
             </li>
             <li class="nav-item text-center">
-              <a class="nav-link text-white custom-link" href="#map">Mapa</a>
+              <a class="nav-link text-white custom-link" href="#map-section">Mapa</a>
             </li>
             <li class="nav-item text-center">
               <a class="nav-link text-white" href="/app" style="padding: 0;">
@@ -96,7 +98,7 @@
 
     <!-- Main Content -->
     <div id="content" class="container-fluid">
-      <section class="vh-100 text-center" id="home">
+      <section class="vh-100 text-center" id="home-section">
         <div class="navbar-spacer"></div>
         <h1 class="text-dark">Sitio web institucional para el Jardín Botánico de Ushuaia</h1>
         <hr />
@@ -104,13 +106,14 @@
         <h2 class="text-dark">Inicio</h2>
       </section>
       <hr>
-      <section class="vh-100 text-center" id="about">
+      <section class="vh-100 text-center" id="about-section">
         <div class="navbar-spacer"></div>
         <h2 class="text-dark">Equipo</h2>
       </section>
-      <section class="vh-100 text-center" id="map">
+      <section class="vh-100 text-center" id="map-section">
         <div class="navbar-spacer"></div>
         <h2 class="text-dark">Mapa</h2>
+        <div id="map"></div>
       </section>
     </div>
 
@@ -119,6 +122,8 @@
     <script src="assets/js/mdb.min.js"></script>
     <!-- jQuery -->
     <script src="assets/js/jquery-3.6.1.min.js"></script>
+    <!-- Leaflet -->
+    <script src="assets/js/leaflet.js"></script>
     <!-- Own Scripts -->
     <script src="assets/js/index.js"></script>
   </body>
