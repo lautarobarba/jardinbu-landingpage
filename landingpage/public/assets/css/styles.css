@@ -1,52 +1,52 @@
 :root {
   /* Colores */
-  --primary: #3b71ca;
+  --primary: #016871;
   --secondary: #9fa6b2;
-  --success: #14a44d;
-  --danger: #dc4c64;
+  --dark: #24232a;
+  --light: #c5e4e7;
+  --success: #36bdad;
   --warning: #e4a11b;
-  --dark: #332d2d;
-  /* Bearkpoints */
-  --desktop-screen: 900px;
+  --danger: #dc4c64;
+}
+
+body {
+  background-color: var(--light);
 }
 
 .navbar {
-  /* min-height: 64px; */
+  min-height: 64px;
   padding-left: 24px;
   padding-right: 24px;
   font-family: Roboto, Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 1.25rem;
-  background-color: var(--primary);
+  background-color: var(--dark);
   box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px -1px,
     rgb(0 0 0 / 14%) 0px 4px 5px 0px, rgb(0 0 0 / 12%) 0px 1px 10px 0px;
 }
 
-#navbarLinks {
-  height: 48px;
+.navbar-toggler {
+  min-height: 48px;
 }
-
-@media screen and (min-width: var(--desktop-screen)) {
-  .navbar {
-    background-color: var(--warning);
-  }
+#navbarLinks {
+  min-height: 48px;
 }
 
 .brand {
   min-height: 54px;
 }
 
-#home {
-  background-color: #00ff0050;
-}
+/* #home {
+  background-color: var(--dark);
+} */
 
-#about {
+/* #about {
   background-color: #0000ff50;
-}
+} */
 
-#map {
+/* #map {
   background-color: #ff000050;
-}
+} */
 
 .navbar-spacer {
   min-height: 100px;
@@ -66,12 +66,28 @@ h2 {
 	font-weight: bold;
 }
 
-.btn-bg-dark {
-	background-color: #1b1b1b;
+.btn-bg-primary {
+  color: white;
+	background-color: var(--primary);
+}
+
+.btn-bg-success {
+  color: white;
+	background-color: var(--success);
+}
+
+.btn-bg-warning {
+  color: white;
+	background-color: var(--warning);
+}
+
+.btn-bg-danger {
+  color: white;
+	background-color: var(--danger);
 }
 
 .text-dark {
-	color: #1b1b1b;
+	color: var(--dark);
 }
 
 .custom-link {
