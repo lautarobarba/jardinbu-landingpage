@@ -37,9 +37,10 @@ body {
   min-height: 54px;
 }
 
-/* #home-section {
-  background-color: var(--dark);
-} */
+#home-section {
+	background-image: url(/assets/images/forest.jpg);
+  background-size: cover;
+}
 
 /* #about-section {
   background-color: #0000ff50;
