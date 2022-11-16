@@ -1,3 +1,12 @@
+// Add style to navbar on scroll
+$(document).scroll(function() {
+  if($(document).scrollTop() >= 10 ) {
+    $('#navbar').addClass('navbar-scrolled');
+  } else {
+    $('#navbar').removeClass('navbar-scrolled');
+  }
+});
+
 // Click over link will collapse navbar
 $(".nav-link").on("click", function () {
   $("#navbarLinks").collapse("hide");
