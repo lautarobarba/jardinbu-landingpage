@@ -42,8 +42,20 @@ body {
   min-height: 54px;
 }
 
-#home-section {
+/* #home-section {
 	background-image: url(/assets/images/forest.jpg);
+  background-size: cover;
+} */
+
+.forest-summer-background {
+  transition: 1.5s;
+  background-image: url(/assets/images/forest-summer.jpg);
+  background-size: cover;
+}
+
+.forest-winter-background {
+  transition: 1.5s;
+  background-image: url(/assets/images/forest-winter.jpg);
   background-size: cover;
 }
 

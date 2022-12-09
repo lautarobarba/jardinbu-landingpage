@@ -12,6 +12,19 @@ $(".nav-link").on("click", function () {
   $("#navbarLinks").collapse("hide");
 });
 
+// Home-section background toggle
+setInterval(() => {
+  // console.log('Cambiando fondo de home-section');
+  const homeSection = $('#home-section');
+  if(homeSection.hasClass('forest-summer-background')){
+    homeSection.removeClass('forest-summer-background');
+    homeSection.addClass('forest-winter-background');
+  } else {
+    homeSection.removeClass('forest-winter-background');
+    homeSection.addClass('forest-summer-background');
+  }
+}, 5000);
+
 // Leaflet
 var map = L.map('map').setView([-54.781111, -68.292613], 13);
 

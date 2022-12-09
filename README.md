@@ -8,6 +8,7 @@
 
 - http-server
 - MDBootstrap
+- Leaflet
 
 ## Dependencias
 
